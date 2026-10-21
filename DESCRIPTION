@@ -1,0 +1,19 @@
+Package: evaldrift
+Type: Package
+Title: Paraphrase-Drift Scoring for LLM Eval Sets
+Version: 0.1.0
+Authors@R: person("James", "Verlander", email = "scrapertweeter3@gmail.com", role = c("aut", "cre"))
+Maintainer: James Verlander <scrapertweeter3@gmail.com>
+Description: Paraphrase-heavy eval sets drift over time: answers get
+    rewritten, questions get reworded, and nobody re-runs the comparison
+    that justified keeping both versions. eval_drift() scores two texts
+    with three plain similarity measures (word-shingle Jaccard,
+    character-trigram Jaccard, normalized Levenshtein similarity) and one
+    blended drift score. No model calls, no network access, pure base R.
+    Companion to the eval-methodology writing on PastAGI
+    <https://pastagi.com>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://pastagi.com
+BugReports: https://github.com/scrapertweeter3-prog/evaldrift/issues
+RoxygenNote: 7.3.1
