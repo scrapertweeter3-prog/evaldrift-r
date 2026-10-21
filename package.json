@@ -1,0 +1,8 @@
+{
+  "name": "evaldrift-r",
+  "version": "0.1.0",
+  "description": "Paraphrase-drift scoring for LLM eval sets: three similarities, one blended drift score",
+  "license": "MIT",
+  "repository": "https://github.com/scrapertweeter3-prog/evaldrift-r",
+  "homepage": "https://pastagi.com"
+}
